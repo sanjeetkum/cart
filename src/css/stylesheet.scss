@@ -72,6 +72,12 @@
         color: $color-secondary-2
     }
 
+    .cart {
+        display: flex;
+        margin: 15px;
+        padding: 25px;
+        border: 1px solid $color-primary-1;
+    }
     .cart-header {
         font-weight: bold;
         font-size: 1.25em;
@@ -106,13 +112,13 @@
     }
 
     .cart-item-title {
-        color: #333;
         margin-left: 0.5em;
-        font-size: 1.2em;
+        @include ecartfont($h6 , $color-primary-1);
+        white-space: nowrap;
     }
 
     .cart-item-image {
-        width: 75px;
+        width: 25px;
         height: auto;
         border-radius: 10px;
     }
