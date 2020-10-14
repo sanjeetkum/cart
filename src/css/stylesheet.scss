@@ -72,11 +72,12 @@
         color: $color-secondary-2
     }
 
-    .cart {
+    &__cart {
         display: flex;
         margin: 15px;
         padding: 25px;
         border: 1px solid $color-primary-1;
+        background-color: $color-secondary-3;
     }
     .cart-header {
         font-weight: bold;
@@ -87,7 +88,7 @@
     .cart-column {
         display: flex;
         align-items: center;
-        border-bottom: 1px solid $color-primary-1;
+
         margin-right: 1.5em;
         padding-bottom: 10px;
         margin-top: 10px;
